@@ -147,7 +147,7 @@
 .frase-efeito{
     text-align: center;
     font-weight: bolder;
-    font-size: 5em;
+    font-size: 4em;
     margin-bottom: 100px;
 }
 
@@ -231,7 +231,7 @@
 
     .frase-efeito {
         max-width: 100vw;
-        font-size: 2em;
+        font-size: 1.5em;
         margin-bottom: 50px;
     }
 }
