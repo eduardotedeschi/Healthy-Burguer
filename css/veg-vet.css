@@ -147,7 +147,7 @@
 .frase-efeito{
     text-align: center;
     font-weight: bolder;
-    font-size: 3em;
+    font-size: 3.5em;
     margin-bottom: 100px;
 }
 
@@ -200,7 +200,7 @@
         margin: 0 auto;
         height: auto;
         width: auto;
-        max-width: 23rem;
+        max-width: 90%;
         display: block;;
     }
 
@@ -213,12 +213,8 @@
         padding: 0 30px;
     }
 
-    .planeta img {
-        max-width: 90%;
-    }
-
     .botoes button {
-        width: 300px;
+        width: 80%;
         font-size: 2.3em;
         height: auto;
         padding: 20px;
