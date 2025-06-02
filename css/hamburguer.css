@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Oleo+Script:wght@400;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root{
+    --verde: #0e400d;
+    --marrom: #3d1e14;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+  
+  main {
+    flex: 1;
+  }
+
+.voltar {
+    position: fixed;
+    top: 20px;
+    left: 10vw;
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
+    padding: 10px;
+    z-index: 9999;
+    transform: scale(2);
+  }
+
+.container {
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+    gap: 60px;
+}
+
+.imagem img {
+    margin: 0 auto;
+    height: auto;
+    width: auto;
+    max-width: 35rem;
+    display: block;
+}
+
+.conteudo {
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.conteudo h1 {
+    font-size: 6rem;
+    line-height: 1.2;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+.conteudo p {
+    font-size: 1.4rem;
+    line-height: 1.8;
+    text-align: center;
+}
+
+.botoes {
+    text-align: center;
+    margin-top: 40px;
+}
+
+button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 330px;
+    height: 80px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: none;
+    color: var(--marrom);
+    font-weight: bold;
+    font-size: 2.5em;
+    font-family: 'Oleo Script', serif;
+    gap: 30px;
+    margin: 0 10px;
+    box-shadow: 0 3px 7px rgba(0,0,0,0.3);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button img {
+    max-height: 4rem;
+    width: auto;
+    transition: all 0.25s ease;
+    
+}
+
+button:hover img {
+    filter: brightness(0) invert(1);
+}
+
+.btn-whatsapp:hover{
+    background-color: #7AD06D;
+}
+
+.btn-ifood:hover{
+    background-color: #EA1D2C;
+}
+
+button:hover {
+    color: white;
+    transform: translateY(-4px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .imagem img {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .conteudo h1 {
+        font-size: 2.5em;
+        margin-bottom: 20px;
+    }
+
+    .conteudo p {
+        font-size: 1.1em;
+        padding: 0 10px;
+    }
+
+    button {
+        width: 300px;
+        font-size: 2.3em;
+        height: auto;
+        padding: 20px;
+        margin: 10px auto;
+    }
+
+    button img {
+        max-height: 2.9rem;
+    }
+}

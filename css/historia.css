@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Oleo+Script:wght@400;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root{
+    --verde: #0e400d;
+    --marrom: #3d1e14;
+}
+
+.section{
+    max-width: 100vw;
+    margin: 100px 0;
+    text-align: center;
+}
+
+.section h1{
+    font-size: 10em;
+    color: white;
+    font-weight: 400;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+.caminho-historia{
+    text-align: center;
+    padding: 0 60px;
+}
+
+.caminho-historia img{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    max-width: 50rem;
+}
+
+.frase-efeito{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 5em;
+}
+
+.avaliacao h2{
+    font-size: 6.5em;
+    margin: 90px;
+}
+
+.avaliacao{
+    margin-top: 200px 0;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .section {
+        max-width: 100vw;
+        margin: 30px 0;
+    }
+
+    .section h1 {
+        margin: 0 auto;
+        font-size: 4em;
+        margin-bottom: 20px;
+        max-width: 90vw;
+    }
+
+    .caminho-historia {
+        width: 100vw;
+        max-width: 100vw;
+        max-height: 100%;
+        padding: 30px 0;
+    }
+
+    .caminho-historia img {
+        width: 80%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .frase-efeito {
+        max-width: 100vw;
+        font-size: 2em;
+        padding: 20px;
+    }
+
+    .avaliacao{
+        margin: 50px 0;
+    }
+
+    .avaliacao h2{
+        font-size: 3em;
+        margin: 20px;
+    }
+}
